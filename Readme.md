@@ -4,8 +4,7 @@ Job Alerts is a repository designed to assist individuals in seeking their ideal
 Every day at 8:00 AM, the user will receive an email containing updates on the companies they are interested in working for, notifying them whether these companies have any new job openings or not.
 
 ## Project Architecture
-
-
+![Project Architecture](https://github.com/AbdassalamAhmad/Job_Alerts/assets/83673888/059ab6b0-769b-403e-a000-dc6d7e9bcdf7)
 
 ## Getting Started
 1. Install AWS CLI and configure it with your account credentials. [for more info](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
