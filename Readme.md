@@ -24,7 +24,7 @@ pip install urllib3==1.25.4 requests -t .
     - `region`: your closest AWS region.
     - `account_id`: your AWS account id.
     - `job_title`: is the job title you're looking for.
-7. open `lambda_function.py` line 99 & 100, add more URLs for companies you want to work for.
+7. open `lambda_function.py` line 99 & 100, add more URLs of the career pages for companies you want to work for.
 8. Terraform apply
 ```sh
 cd terraform

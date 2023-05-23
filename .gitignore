@@ -1,0 +1,6 @@
+# python is a folder for lambda layer libraries
+python
+
+# terraform state files and modules
+.terraform*
+terraform.*
