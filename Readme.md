@@ -18,13 +18,13 @@ cd python
 pip install urllib3==1.25.4 requests -t .
 ```
 5. Compress the `python` dir in a `.zip` format with this name `requests_library.zip` in the top directory of the repo.
-6. Open `terraform\values.auto.tfvars` file and fill in the values
+6. Open `terraform\values.auto.tfvars` file and fill in these values
     - `sender_email`: is the email of the sender (You😄) (you should own it and verify it in SES).
     - `receiver_email`: is the email of the reciever (You too😄) (you should own it and verify it in SES as well).
     - `region`: your closest AWS region.
     - `account_id`: your AWS account id.
     - `job_title`: is the job title you're looking for.
-7. open `lambda_function.py` line 99 & 100, add more URLs of the career pages for companies you want to work for.
+7. open `lambda_function.py` after lines 102, add more URLs of the career pages for companies you want to work for.
 8. Terraform apply
 ```sh
 cd terraform
@@ -39,6 +39,7 @@ terraform apply --auto-aprove
 
 ## TO-DO List
 - [ ] Put the state file in a seperate S3 Bucket.
+- [ ] Make the logic of sending the emails clearer.
 - [ ] Add tests to Lambda function code.
 - [ ] Try to use OOP (any ideas are appreciated).
 
