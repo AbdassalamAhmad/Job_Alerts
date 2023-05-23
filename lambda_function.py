@@ -10,7 +10,6 @@ JOB_TITLE = JOB_TITLE.lower()
 SENDER_EMAIL = os.environ['sender_email']
 RECEIVER_EMAIL = os.environ['receiver_email']
 
-
 dynamodb = boto3.resource('dynamodb')
 table_name = os.environ['dynamodb_table_name']
 table = dynamodb.Table(table_name)
