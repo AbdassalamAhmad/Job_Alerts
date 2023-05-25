@@ -37,6 +37,7 @@ terraform apply --auto-aprove
 - Simply run `terraform destroy --auto-approve`
 
 ## TO-DO List
+- [ ] Transform this project into Dynamic Newsletter, where usesrs can choose the title and companies, then emails will be sent to them directly without the need of building this project.
 - [ ] Put the state file in a seperate S3 Bucket.
 - [ ] Make the logic of sending the emails clearer.
 - [ ] Add tests to Lambda function code.
